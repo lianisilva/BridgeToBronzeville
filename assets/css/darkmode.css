@@ -135,9 +135,11 @@ body.light .viewRepo {
     border-top: 1px solid #87bef1;
 }
 
+/*
 body.light .hacktober-heading {
     color: #081e5b;
 }
+*/
 
 body.light .card {
     background-color: #eff2f5;

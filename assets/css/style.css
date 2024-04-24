@@ -1554,6 +1554,7 @@ section {
 /*--------------------------------------------------------------
 # Hacktoberfest Page
 --------------------------------------------------------------*/
+/*
 * {
   padding: 0;
   margin: 0;
@@ -1592,7 +1593,7 @@ section {
   margin: 0 8px;
 }
 
-/* Main secion */
+/ * Main secion * /
 .hacktober-heading {
   color: #2796ff;
   text-align: center;
@@ -1655,6 +1656,7 @@ section {
   background-color: #0c2e8a;
   color: #fff;
 }
+*/
 
 /* Previous code */
 
