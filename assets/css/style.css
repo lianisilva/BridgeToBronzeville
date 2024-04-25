@@ -622,72 +622,72 @@ section {
   padding: 50px;
 }
 @media (max-width: 767px) {
-  #services .box .box {
+  #services.box {
     margin-bottom: 20px;
   }
-  #services .box .icon .title{
+  #services.box.icon.title{
     width: 100%;
     font-size: 18px;
   }
-  #services .box .icon p{
+  #services.box.icon p{
     font-size: 13px;
     text-align: center;
     width: 100%;
   }
-  #services .icon {
+  #services.icon {
     float: none;
     text-align: center;
     padding-bottom: 15px;
   }
-  #services .box .flip-card-back .description{
+  #services.box.flip-card-back.description{
     font-size: 14px;
     text-align: center;
     margin-left: 60px;
   }
 }
 @media (max-width: 320px){
-  #services .box .flip-card-back .description{
+  #services.box.flip-card-back.description{
     font-size: 57%;
     margin: 21px 5px auto;
     margin-left: 33px;
     text-align: center;
   }
-  #services .box .icon .title{
+  #services.box.icon.title{
     width: 100%;
     font-size: 18px;
     text-align: center;
   }
 }
 
-#services .col-lg-6 {  
+#services.col-lg-6 {  
   background-color: transparent;
   width: 305px;
   height: 205px;
   perspective: 1000px;
 }
 
-#services .box {
+#services.box {
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 1.5s;
-  transform-style: preserve-3d;
+  /* transition: transform 1.5s; */
+  /* transform-style: preserve-3d; */
   padding: 30px;
   box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
   background: var(--service);
   border: 4px solid var(--postborder);
   border-radius: 19px;
 }
-#services .col-lg-6:hover .box {
-  transform: rotateY(180deg);
-  transition: transform 1.5s ease;
+#services.col-lg-6:hover.box {
+  /* transform: rotateY(180deg); */
+  /* transition: transform 1.5s ease; */
 }
 
-/* .is-flipped {
+/*.is-flipped {
   /* transform: rotateY(0.5turn); */
 /* } */
 
-#services .icon {
+#services.icon {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
@@ -695,28 +695,28 @@ section {
   transform: translateZ(6rem);
 }
 
-#services .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transform: rotateY(180deg);
+#services.flip-card-back {
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* -webkit-backface-visibility: hidden; */
+  /* backface-visibility: hidden; */
+  /* transform: rotateY(180deg); */
 }
 
-#services .box .icon {
+#services.box.icon {
   float: left;
-  transform: rotateX(0deg);
+  /* transform: rotateX(0deg); */
 }
 
-#services .box .icon i {
+#services.box.icon i {
   color: #444;
   font-size: 62px;
   transition: 0.5s;
   line-height: 0;
 }
 
-#services .box .icon i:before {
+#services.box.icon i:before {
   background: var(--icon);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -724,7 +724,7 @@ section {
   margin-bottom: 7px;
 }
 
-#services .icon h4 {
+#services.icon h4 {
   margin-left: 0px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -734,13 +734,13 @@ section {
   color: var(--textcolor);
 }
 
-#services .icon p {
+#services.icon p {
   text-align: center;
   width: 100%;
-  transform: translate(-75px, -5px);
+  /* transform: translate(-75px, -5px); */
 }
 
-#services .box p {
+#services.box p {
   margin-top: 0%;
   margin-left: 72px;
   font-size: 17px;
