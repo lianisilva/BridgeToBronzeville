@@ -559,62 +559,6 @@ section {
   color: var(--textcolor);
 }
 
-/* About Section
---------------------------------*/
-
-#about {
-  padding: 60px 0 30px 0;
-}
-
-#about .about-img {
-  overflow: hidden;
-}
-
-#about .about-img img {
-  margin-left: -15px;
-  max-width: 100%;
-  animation: Dance 10s infinite;
-}
-
-.row {
-  justify-content: center;
-  align-items: center;
-}
-
-@media (max-width: 768px) {
-  #about .about-img {
-    height: auto;
-  }
-
-  #about .about-img img {
-    margin-left: 0;
-    padding-bottom: 30px;
-  }
-}
-
-#about .content {
-  padding: 35px;
-  border-radius: 15px;
-}
-
-#about .content h2 {
-  color: #0c2e8a;
-  font-weight: 700;
-  font-size: 36px;
-  font-family: "Raleway", sans-serif;
-}
-
-#about .content h3 {
-  color: #555;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  padding: 0.5rem 0;
-  line-height: 1.8;
-  /* box-shadow: 5px 5px 5px 5px ; */
-  /* font-style: italic; */
-}
-
 /* Services Section
 --------------------------------*/
 
@@ -764,6 +708,62 @@ section {
     padding-bottom: 15px;
   }
 } */
+
+/* About Section
+--------------------------------*/
+
+#about {
+  padding: 60px 0 30px 0;
+}
+
+#about .about-img {
+  overflow: hidden;
+}
+
+#about .about-img img {
+  margin-left: -15px;
+  max-width: 100%;
+  animation: Dance 10s infinite;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  #about .about-img {
+    height: auto;
+  }
+
+  #about .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about .content {
+  padding: 35px;
+  border-radius: 15px;
+}
+
+#about .content h2 {
+  color: #0c2e8a;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+}
+
+#about .content h3 {
+  color: #555;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 0.5rem 0;
+  line-height: 1.8;
+  /* box-shadow: 5px 5px 5px 5px ; */
+  /* font-style: italic; */
+}
 
 /* Testimonials Section
 --------------------------------*/
