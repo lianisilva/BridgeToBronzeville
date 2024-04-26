@@ -10,6 +10,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.event-list li {
+  margin-bottom: 20px; /* Add space between items */
+}
+
 .alanBtn-root {
   /* bottom:20px !important; */
   right: 10px !important;
